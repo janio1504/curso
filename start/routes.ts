@@ -21,5 +21,5 @@
 import Route from '@ioc:Adonis/Core/Route'
 
 Route.get('/', async () => {
-  return { hello: 'world' }
+  return { Mensagem: 'Bem vindos ao curso de programação do UNIFAP DIGITAL 4.0' }
 })
